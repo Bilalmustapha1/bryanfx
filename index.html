@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryan Forex Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+    header {    
+      background: url('IMG-20250504-WA0047.jpg') center/cover no-repeat;
+      padding: 60px 20px;
+      text-align: center;
+
+    }
+
+    #main{
+        background-repeat:no-repeat ;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+
+    
+     
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      display: inline-block;
+      padding: 12px 30px;
+      background:  #e53938;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .hero a:hover {
+      background: #efafaf;
+    }
+    .stats {
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 50px 20px;
+      text-align: center;
+    }
+    .stats div {
+      background: #e53938;
+      padding: 20px;
+      border: 3px;
+      border-radius: 10px;
+      flex: 1 1 5px;
+    }
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .testimonial-card {  
+      background: rgba(249, 247, 247, 0.9);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: #2c3e50;
+    }
+    .testimonial-card img {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .overlay{
+        
+        border-image:
+        linear-gradient(
+            hsl(240 100% 20%/ .6),
+            hsl(0 100% 20%/ .6))
+            fill 1 ;
+            
+        
+    }
+    footer {
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      background-size: 1ev;
+      background-color: #e53938;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+      .stats {
+        flex-direction: column;
+      }
+    }
+
+    #social{
+    justify-content: center;
+    display: flex;
+    display: flexbox;
+    margin-bottom: 15px;
+    gap: 10px;
+    padding: 5px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<div id="main">
+ <header class="overlay">
+    <!--logo image-->
+  <nav>
+    <div class="logo">
+        <img src="IMG-20250504-WA0013.jpg" alt="" srcset="" width="80px" style="border-radius: 50px;">
+    </div>
+
+  </nav>
+  <div class="hero">
+    <h1>Master Forex Trading with Confidence</h1>
+    <p>Join 1000+ students transforming their financial future.</p>
+    <a href="course.html">View Courses</a>
+   </div>
+ </header>
+</div>
+<section class="stats">
+  <div>
+    <h3>1000+ <br> Students Trained.</h3>
+  </div>
+  <div>
+    <h3>Stay Ahead <br> with Live Market Updates.</h3>
+  </div>
+  <div>
+    <h3>Expert tutors <br> <p>Learn from Real Traders.</p></h3>
+  </div>
+  <div>
+    <h3>Live Classes.</h3>
+  </div>
+</section>
+<div id="testimonials">
+    <H2 style="color: black; text-align: center; font-size: 25px;">Student testimonials.</H2>
+ <section class="testimonials">
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0030.jpg" alt="Student 1">
+    <p>"Amazing course! I improved my trading skills drastically."</p>
+    <strong>- Michael O.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0032.jpg" alt="Student 2">
+    <p>"The live classes are a game-changer. Highly recommend!"</p>
+    <strong>- Badmus T.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0036.jpg" alt="Student 3">
+    <p>"Practical strategies that actually work in the market."</p>
+    <strong>- Emmanuel R.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0040.jpg" alt="Student 4">
+    <p>"I love how practical the courses are. Its not just theory, you actually learn how to apply everything in real market conditions"</p>
+    <strong>- Divine C.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0045.jpg" alt="Student 5">
+    <p>"joining the academy was the best decision i made for my trading journey. The mentorship and market updates are priceless"</p>
+    <strong>- Priscilla J.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="IMG-20250504-WA0041.jpg" alt="Student 5">
+    <p>"The strategies are easy to follow, and the support frrom the team is outstanding"</p>
+    <strong>- Ridwan B.</strong>
+  </div>
+ </section>
+</div>
+<div id="social">
+  <a href="https://www.tiktok.com/@bryanfx4?_t=ZM-8w4oW3sMfbS&_r=1"><img src="tiktok.svg" alt="" width="30px"></a>
+  <a href="https://x.com/bryan_forex__?s=21"><img src="logo-twitter.svg" alt="" width="30px"></a>
+  <a href=""><img src="instagram.svg" alt="" width="30px"></a>
+</div>
+
+<footer>
+  &copy; Bryan Forex Academy. All rights reserved.
+</footer>
+
+</body>
+</html>

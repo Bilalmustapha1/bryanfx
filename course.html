@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forex Academy Course Cards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+    }
+
+    .pricing-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-15px);
+    }
+
+    .card.featured {
+      background: #e53938;
+      color: white;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+
+    .card ul li {
+      margin: 10px 0;
+    }
+
+    .card ul li::before {
+      content: '✓';
+      color: #e53938;
+      margin-right: 8px;
+    }
+
+    .card.featured ul li::before {
+      color: #fff;
+    }
+
+    .card button {
+      background: #e53938;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .card.featured button {
+      background: white;
+      color: #e53938;
+    }
+
+    footer {
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      background-size: 1ev;
+      background-color: #e53938;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    
+    #headline{
+      width: 100%;
+      margin-left: 0%;
+      text-align: center;
+      color: #e53938;
+      font-size: 30px;
+    }
+
+    
+    #social{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    gap: 20px;
+    padding: 0px;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="headline">
+    <h1>Availabe courses.</h1>
+  </div>
+  <div class="pricing-container">
+    <div class="card">
+      <h3>General Mentorship</h3>
+      <div class="price">₦100,000</div>
+      <ul>
+        <li>Online Sessions</li>
+        <li>Forex Basics & Strategies</li>
+        <li>Weekly Market Analysis</li>
+      </ul>
+      <button>Enroll Now</button>
+    </div>
+
+    <div class="card featured">
+      <h3>Private Mentorship</h3>
+      <div class="price">₦150,000</div>
+      <ul>
+        <li>1-on-1 Online Coaching</li>
+        <li>Custom Trading Plans</li>
+        <li>Lifetime Access to Materials</li>
+      </ul>
+      <button>Enroll Now</button>
+    </div>
+
+    <div class="card">
+      <h3>VIP Group Signals</h3>
+      <div class="price">₦50,000</div>
+      <ul>
+        <li>0–6 Weekly Trade Signals</li>
+        <li>Community Support</li>
+        <li>Market Updates</li>
+      </ul>
+      <button>Join Group</button>
+    </div>
+  </div>
+  <div id="social">
+    <a href="https://www.tiktok.com/@bryanfx4?_t=ZM-8w4oW3sMfbS&_r=1"><img src="tiktok.svg" alt="" width="30px"></a>
+    <a href="https://x.com/bryan_forex__?s=21"><img src="logo-twitter.svg" alt="" width="30px"></a>
+    <a href=""><img src="instagram.svg" alt="" width="30px"></a>
+  </div>
+  <footer>
+    &copy; Bryan Forex Academy. All rights reserved.
+  </footer>
+</body>
+</html>

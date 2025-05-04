@@ -1,0 +1,166 @@
+﻿!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forex Academy Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, red, #2c3e50);
+      color: #fff;
+    }
+    header {
+      background: url('your-header-image.jpg') center/cover no-repeat;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #e74c3c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .hero a:hover {
+      background: #c0392b;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 50px 20px;
+      text-align: center;
+    }
+    .stats div {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 200px;
+    }
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .testimonial-card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .testimonial-card img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+      .stats {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Your Logo</div>
+    <ul>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h1>Master Forex Trading with Confidence</h1>
+    <p>Join 1000+ students transforming their financial future.</p>
+    <a href="#courses">View Courses</a>
+  </div>
+</header>
+
+<section class="stats">
+  <div>
+    <h3>1000+ Students Trained</h3>
+  </div>
+  <div>
+    <h3>Stay Ahead with Live Market Updates</h3>
+  </div>
+  <div>
+    <h3>Learn from Real Traders</h3>
+  </div>
+  <div>
+    <h3>Live Classes</h3>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonial-card">
+    <img src="student1.jpg" alt="Student 1">
+    <p>"Amazing course! I improved my trading skills drastically."</p>
+    <strong>- Sarah K.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="student2.jpg" alt="Student 2">
+    <p>"The live classes are a game-changer. Highly recommend!"</p>
+    <strong>- Mike D.</strong>
+  </div>
+  <div class="testimonial-card">
+    <img src="student3.jpg" alt="Student 3">
+    <p>"Practical strategies that actually work in the market."</p>
+    <strong>- Emma J.</strong>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Forex Academy. All rights reserved.
+</footer>
+
+</body>
+</html>
